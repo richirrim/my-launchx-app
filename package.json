@@ -1,0 +1,28 @@
+{
+  "name": "my-launchx-app",
+  "version": "1.0.0",
+  "description": "Práctica 1",
+  "main": "index.js",
+  "scripts": {
+    "testJs": "standard",
+    "test": "node ./node_modules/.bin/jest",
+    "start": "node index.js"
+  },
+  "standard": {
+    "env": [ "jest" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richirrim/my-launchx-app.git"
+  },
+  "author": "@richirrim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richirrim/my-launchx-app/issues"
+  },
+  "homepage": "https://github.com/richirrim/my-launchx-app#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "standard": "^16.0.4"
+  }
+}
